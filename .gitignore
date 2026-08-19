@@ -1,0 +1,29 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Terraform generated output
+plan_output.txt
+remediation_output.txt
+
+# Remediation logs
+remediation.log
+remediation_failed.log
+
+# Credentials / secrets
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+
+# Local OS / editor files
+.DS_Store
+.vscode/
+.idea/
